@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duy Hung's Portfolio</title>
+
+    <!-- CSS Sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script type="importmap">
+      {
+          "imports": {
+              "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+              "three/addons/": "https://unpkg.com/three@0.156.0/examples/jsm/"
+          }
+      }
+  </script>
+</head>
+<body>
+  <!-- Scroll Bar -->
+  <div id="progress_bar"> </div>
+  <div id="scroll_path"></div>
+
+  <!-- Nav bar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Duy Hung's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Developer's Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Designer's Project</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <img src="./img/paralax/paralax__0017_background.png" data-speedx="0.3" data-speedy="0.38" data-zvalue="0" alt="background" class="parallax background"/>
+        <img src="./img/paralax/paralax__0016_sky-light-1.png" data-speedx="0.25" data-speedy="0.25" data-zvalue="0" alt="skylight" class="parallax skylight"/>
+        <img src="./img/paralax/paralax__0015_sky-light-2.png" data-speedx="0.25" data-speedy="0.25" data-zvalue="0" alt="skylight" class="parallax skylight"/>
+        <img src="./img/paralax/paralax__0014_sky-light-3.png" data-speedx="0.25" data-speedy="0.25" data-zvalue="0" alt="skylight" class="parallax skylight"/>
+        <img src="./img/paralax/paralax__0013_smoke-back-1.png" data-speedx="0.24" data-speedy="0.205" data-zvalue="1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0012_smoke-back-2.png" data-speedx="0.21" data-speedy="0.21" data-zvalue="1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0011_-smoke-back-3.png" data-speedx="0.19" data-speedy="0.17" data-zvalue="-1" alt="smoke" class="parallax smoke"/>
+        <div class="textContainer" data-speedx="0.05" data-speedy="0.06">
+          <p class="textStatic">
+            I'm a
+          </p>
+          <p class="textDynamic">
+            
+          </p>
+          <p class="textContainer2">
+            I am a Year 2 Computer Science Student at Queen's University Belfast, who have a deep passion in web developing and creating engaging digital experience 
+          </p>
+        </div>
+        
+        <img src="./img/paralax/paralax__0010_back-building-1.png" data-speedx="0.195" data-speedy="0.205" data-zvalue="-1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0009_back-building-2.png" data-speedx="0.155" data-speedy="0.165" data-zvalue="1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0008_-smoke-back-4.png" data-speedx="0.16" data-speedy="0.15" data-zvalue="1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0007_-smoke-back-5.png" data-speedx="0.16" data-speedy="0.15" data-zvalue="-1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0006_mid-building-3.png" data-speedx="0.105" data-speedy="0.095" data-zvalue="1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0005_-smoke-back-6.png" data-speedx="0.13" data-speedy="0.125" data-zvalue="1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0004_mid-building-4.png" data-speedx="0.085" data-speedy="0.075" data-zvalue="-1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0003_mid-building-5.png" data-speedx="0.065" data-speedy="0.055" data-zvalue="-1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0002_smoke-front-7.png" data-speedx="0.13" data-speedy="0.115" data-zvalue="-1" alt="smoke" class="parallax smoke"/>
+        <img src="./img/paralax/paralax__0001_front-building-6.png" data-speedx="0.045" data-speedy="0.035" data-zvalue="1" alt="building" class="parallax building"/>
+        <img src="./img/paralax/paralax__0000_smoke-upper-front-8.png" data-speedx="0.1" data-speedy="0.09" data-zvalue="1" alt="smoke" class="parallax smoke"/>
+      </main>
+    <!-- JS -->
+  
+      <!-- <canvas class="bg_3D section2"> -->
+
+      <!-- </canvas> -->
+    <section class="section3">
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
