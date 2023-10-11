@@ -52,7 +52,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://github.com/Basilogast/DuyHungPortfolio">
+    <img src="example website.png" alt="Logo" width="100%" height="auto">
+  </a>
 
 Welcome to my portfolio, your gateway to understanding who I am and what I bring to the digital landscape. This space is divided into four essential sections:
 
