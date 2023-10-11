@@ -13,7 +13,7 @@
   <p align="center">
     Welcome to my constantly evolving digital portfolio, a dynamic space where I showcase daily updates of my skills, projects, and creativity. 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Basilogast/DuyHungPortfolio/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
