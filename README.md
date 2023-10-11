@@ -137,6 +137,11 @@ Project Link: [https://github.com/Basilogast/DuyHungPortfolio/tree/gh-pages](htt
 ## Acknowledgments
 Credits to the following: 
 
+### Template:
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Portfolio Template](https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio)
+
+### Default:
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -146,6 +151,10 @@ Credits to the following:
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
+### Framework:
+* [React.js] (https://react.dev/)
+* [Bootstrap] (https://getbootstrap.com/)
+* [JQuery] (https://jquery.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
